@@ -1,0 +1,58 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: arial unicode MS;
+}
+nav{
+    width: 100%;
+    height: 70px;
+    line-height: 75px;
+    padding: 0px 100px;
+    position: fixed;
+    background-color: green;
+}
+body{
+    background-color: cornflowerblue;
+}
+.edit-information-form{
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+}
+.edit-information-form h1{
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    margin: 30px 0;
+    width: 75%;
+}
+.edit-information-form p{
+    font-size: 20px;
+    color: white;
+}
+.edit-information-form input{
+    font-size: 15px;
+    padding: 6px 10px;
+    margin: 5px;
+    width: 75%;
+    border: 0;
+    border-radius: 20px;
+    outline: none;
+}
+.edit-information-form button{
+    font-size: 20px;
+    font-weight: bold;
+    background: linear-gradient(90deg, rgb(4, 235, 196), rgb(7, 235, 140), rgba(11, 238, 4, 0.89));
+    color: white;
+    margin: 25px 24%;
+    width: 30%;
+    border: 0;
+    border-radius: 20px;
+}
+.edit-information-form button:hover{
+    background: linear-gradient(-90deg, rgb(4, 235, 196), rgb(7, 235, 140), rgba(11, 238, 4, 0.89));
+
+}
